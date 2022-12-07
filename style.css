@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Sans-Serif;
+}
+body {
+    background: url("bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+div {
+    border-radius: 3px;
+}
+div.box {
+    background: linear-gradient(rgba(0.7,0.9,255,0.25),rgba(255,0.5,0.9,0.25));
+    rotate: 45deg;
+    animation: box 3s infinite;
+}
+div.box1 {
+    background: linear-gradient(rgba(255,0.6,255,0.25),rgba(0.5,255,255,0.25));
+    rotate: -45;
+    animation: box1 3s infinite;
+}
+div.box2 {
+    background: linear-gradient(rgba(0.5,225,0.5,0.25),rgba(255,1.5,255,0.25));
+    rotate: 90deg;
+    animation: box2 3s infinite;
+}
+div.box3 {
+    background: linear-gradient(rgba(1.1,255,0.5,0.25),rgba(255,255,0.25,0.25));
+    rotate: -135deg;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    animation: box3 3s infinite;
+}
+img.logo {
+    width: 200px;
+    margin: -30;
+}
+h1.title {
+    letter-spacing: 5px;
+    color: #26FF00;
+}
+p {
+    color: #ffffff;
+    margin: 5px;
+}
+form.form {
+    margin: 15px;
+}
+input, button {
+    border-radius: 4px;
+    border: 2px solid #00D5FF;
+}
+input.username {
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+}
+input.password {
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+}
+button.button {
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+}
